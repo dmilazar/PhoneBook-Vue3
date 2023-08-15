@@ -1,0 +1,58 @@
+$bgColor: white;
+$primary: #00cc66;
+$lightBlack: #222222;
+$text: gray;
+$borderColor: #d4d4d4;
+
+.form-control {
+  background-color: $bgColor;
+  border: 1px solid $borderColor;
+  color: black;
+
+  &:focus {
+    border-color: $primary;
+    box-shadow: inset 0 2px 2px rgba(132, 129, 129, 0.075),
+      0 0 3px rgba(121, 255, 155, 0.6);
+  }
+}
+
+.btn-link {
+  text-decoration: none;
+  color: $primary;
+  font-weight: 600;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.btn-light {
+  border: 1px solid $borderColor;
+  background-color: transparent;
+  margin-left: 10px;
+
+  &:hover {
+    border-color: $primary;
+  }
+}
+
+.content-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    border: 1px solid $borderColor;
+    border-radius: 10px;
+    color: $text;
+
+    @media screen and (max-width: 575px) {
+      border: none !important;
+    }
+  }
+
+  @media screen and (max-width: 1199px) {
+    align-items: unset;
+    height: unset;
+  }
+}
