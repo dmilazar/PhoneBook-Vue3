@@ -25,7 +25,7 @@ This is a Phonebook CRUD application built with Vue 3, TypeScript, Sass, and Boo
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/dmilazar/PhoneBook-vue3.git`
-2. Navigate to the project directory: `cd phonebook-vue-3`
+2. Navigate to the project directory: `cd PhoneBook-vue3`
 3. Install the dependencies: `npm install`
 
 ## Usage
